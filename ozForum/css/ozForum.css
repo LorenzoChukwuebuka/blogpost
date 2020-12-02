@@ -1,0 +1,57 @@
+.whiteTxt {
+    color: white;
+}
+.centerTxt {
+    text-align: center;
+}
+.whiteBackground {
+    background-color: white;
+}
+.pad {
+    padding: 1rem;
+    border: thin solid rgb(221, 220, 220);
+}
+#home{
+    background-image: url('../img/homeBackground.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+#home .homeCover {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#home .homeCover .container {
+    position: relative;
+    top: 15vh;
+}
+#home .container h1 {
+    margin-top: 0;
+    font-size: 3.3rem;
+}
+.collection-item h6 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+#breadCrumb nav {
+    
+    background-color: #fff;
+}
+.breadcrumb, .breadcrumb:last-child, .breadcrumb:before  {
+    font-size: 18px;
+    color: #ee6e73;
+}
+.siders{
+    border: thin solid rgb(216, 216, 216);
+    padding: 0.7rem 0.5rem 1rem;
+}
+.btnColor, .btnColor:hover {
+    background-color: #717a5c;
+}
+
+.btnColorII, .btnColorII:hover {
+    background-color: #fff;
+    color: #717a5c;
+    border-color: #717a5c;
+}
